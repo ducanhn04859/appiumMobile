@@ -1,4 +1,3 @@
-
 exports.config = {
     runner: 'local',
     port: 4723,
@@ -13,8 +12,12 @@ exports.config = {
     },
     maxInstances: 10,
     sync: true,
-    specs: ['PlayWithMocha.js'],
-    capabilities:[{
+    specs: [
+        // 'PlayWithMocha.js'
+        // 'api/click.js'
+        'api/swichBtn.js'
+    ],
+    capabilities: [{
         "platformName": "Android",
         "automationName": "UiAutomator2",
         "udid": "emulator-5554",
