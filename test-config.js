@@ -15,7 +15,7 @@ exports.config = {
     specs: [
         // 'PlayWithMocha.js'
         // 'api/click.js'
-        'api/swichBtn.js'
+        'api/swiprVertical.js'
     ],
     capabilities: [{
         "platformName": "Android",
