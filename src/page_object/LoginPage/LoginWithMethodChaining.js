@@ -1,6 +1,6 @@
 import Dashboard from "./Dashboard";
 
-const EMAIL_TXT_FIELD = '~input-email1'
+const EMAIL_TXT_FIELD = '~input-email'
 const PASSWORD_TXT_FIELD = '~input-password'
 const LOGIN_BTN = '~button-LOGIN'
 

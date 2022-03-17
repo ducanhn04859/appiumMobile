@@ -1,3 +1,4 @@
+let chai = require("chai")
 exports.config = {
     runner: 'local',
     port: 4723,
@@ -18,7 +19,7 @@ exports.config = {
         // 'api/click.js'
         // 'api/swiprVertical.js'
         // 'api/swiprHorizontal.js'
-        'src/test_script/LoginPage/TC_Login_MethodChaining.js'
+        'src/test_script/LoginPage/TC_005_Login.js'
     ],
     capabilities: [{
         "platformName": "Android",
@@ -26,5 +27,8 @@ exports.config = {
         "udid": "emulator-5554",
         "appPackage": "com.wdiodemoapp",
         "appActivity": ".MainActivity"
-    }]
+    }],
+    before: function () {
+        global.chaiExpect = chai.expect
+    }
 }
