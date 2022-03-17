@@ -1,5 +1,5 @@
 describe('Webdriver IO API', function () {
-    it('should set value to text field', function () {
+    it('should set value to text field to LoginPage', function () {
         //Declare element selectors values
         const LOGIN_ICON = '~Login'
         const EMAIL_TXT = '~input-email'

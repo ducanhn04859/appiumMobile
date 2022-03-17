@@ -9,9 +9,9 @@ describe('WebDriverIO API', function () {
 
         // 2.Swipe up vertical
         const {height} = driver.getWindowSize()
-        const anchorPercentage = 50 // vị trí 50% (giữa) bề ngang màn hình
-        const startPointPercentage = 90 // vị trí 90% (gần cuối) dọc màn hình
-        const endPointPercentage = 10 // vị trí 10% (gần đầu) dọc màn hình
+        const anchorPercentage = 50 // vị trí 50% (giữa) màn hình
+        const startPointPercentage = 90 // vị trí 90%  màn hình
+        const endPointPercentage = 10 // vị trí 10% màn hình
 
         const anchor = height * anchorPercentage / 100
         const startPoint = height * startPointPercentage / 100
