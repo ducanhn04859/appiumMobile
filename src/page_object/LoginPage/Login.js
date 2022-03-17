@@ -9,10 +9,6 @@ class Login extends CredentialForm {
         return $(LOGIN_BTN)
     }
 
-    click_on_login_btn() {
-        this.login_btn.click()
-    }
-
 }
 
 export default new Login()

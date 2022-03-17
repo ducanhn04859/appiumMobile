@@ -19,7 +19,8 @@ exports.config = {
         // 'api/click.js'
         // 'api/swiprVertical.js'
         // 'api/swiprHorizontal.js'
-        'src/test_script/LoginPage/TC_005_Login.js'
+        // 'src/test_script/LoginPage/TC_005_Login.js',
+        "src/test_script/LoginPage/TC_006_LoginWithCommonFlow.js"
     ],
     capabilities: [{
         "platformName": "Android",
