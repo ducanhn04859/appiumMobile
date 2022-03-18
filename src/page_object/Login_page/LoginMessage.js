@@ -1,6 +1,6 @@
-const MSG_TITLE = "~"
-const MSG_CONTENT = "~"
-const MSG_ACCEPT_BTN = "~"
+const MSG_TITLE = '//*[@resource-id="android:id/alertTitle"]'
+const MSG_CONTENT = '//*[@resource-id="android:id/message"]'
+const MSG_ACCEPT_BTN = '//*[@resource-id="android:id/button1"]'
 
 class LoginMessage {
     wait_until_screen_display() {

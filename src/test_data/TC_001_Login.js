@@ -6,4 +6,4 @@ const INVALID_CREDS = {
     email: "asd",
     pass: "123"
 }
-exports.LoginData = {VALID_CREDS, INVALID_CREDS}
+export {VALID_CREDS, INVALID_CREDS}

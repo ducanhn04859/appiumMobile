@@ -20,7 +20,7 @@ exports.config = {
         // 'api/swiprVertical.js'
         // 'api/swiprHorizontal.js'
         // 'src_backup/test_script/LoginPage/TC_005_Login.js',
-        "src_backup/test_script/LoginPage/TC_006_LoginWithCommonFlow.js"
+        "src/test_script/LoginPage/TC_001_Login.js"
     ],
     capabilities: [{
         "platformName": "Android",
