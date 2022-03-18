@@ -1,0 +1,110 @@
+{
+  "uid" : "13b65b7e8c46fc5f",
+  "name" : "should login successfully",
+  "fullName" : "Login Function.should login successfully",
+  "historyId" : "be2582726e6858ef51bafe7b78db8974",
+  "time" : {
+    "start" : 1647588882828,
+    "stop" : 1647588891159,
+    "duration" : 8331
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input email as asd@asd.com and password as 12345678",
+      "time" : {
+        "start" : 1647588884561,
+        "stop" : 1647588884561,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on Login button",
+      "time" : {
+        "start" : 1647588887418,
+        "stop" : 1647588887418,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_001"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Function"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Function"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login successfully"
+  }, {
+    "name" : "package",
+    "value" : "Login Function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ {
+    "name" : "https://my-tms/TC_001",
+    "url" : "https://my-tms/TC_001",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13b65b7e8c46fc5f.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}

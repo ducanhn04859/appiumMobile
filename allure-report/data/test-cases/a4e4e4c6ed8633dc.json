@@ -1,0 +1,70 @@
+{
+  "uid" : "a4e4e4c6ed8633dc",
+  "name" : "should login successfully",
+  "fullName" : "Login Function.should login successfully",
+  "historyId" : "be2582726e6858ef51bafe7b78db8974",
+  "time" : {
+    "start" : 1647586682036,
+    "stop" : 1647586690950,
+    "duration" : 8914
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_001"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Function"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Function"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login successfully"
+  }, {
+    "name" : "package",
+    "value" : "Login Function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ {
+    "name" : "https://my-tms/TC_001",
+    "url" : "https://my-tms/TC_001",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4e4e4c6ed8633dc.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}

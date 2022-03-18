@@ -1,0 +1,141 @@
+{
+  "uid" : "26190afaae5f3dc6",
+  "name" : "should see message when login invalid email",
+  "fullName" : "Login Function.should see message when login invalid email",
+  "historyId" : "f6a6ffdaff3d1b0516e344ab7ee76316",
+  "time" : {
+    "start" : 1647594181151,
+    "stop" : 1647594187236,
+    "duration" : 6085
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input email as asd and password as ",
+      "time" : {
+        "start" : 1647594181764,
+        "stop" : 1647594181764,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on Login button",
+      "time" : {
+        "start" : 1647594184770,
+        "stop" : 1647594184770,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_002"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Function"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Function"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see message when login invalid email"
+  }, {
+    "name" : "package",
+    "value" : "Login Function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ {
+    "name" : "https://my-tms/TC_002",
+    "url" : "https://my-tms/TC_002",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ad0263b98b694bbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647590592914,
+        "stop" : 1647590599001,
+        "duration" : 6087
+      }
+    }, {
+      "uid" : "ebd1c1006959b851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588891161,
+        "stop" : 1647588896458,
+        "duration" : 5297
+      }
+    }, {
+      "uid" : "2ba4c8b2a7c42a74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647587063896,
+        "stop" : 1647587068833,
+        "duration" : 4937
+      }
+    }, {
+      "uid" : "6c17a8379a56ed0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647586690951,
+        "stop" : 1647586696469,
+        "duration" : 5518
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26190afaae5f3dc6.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}

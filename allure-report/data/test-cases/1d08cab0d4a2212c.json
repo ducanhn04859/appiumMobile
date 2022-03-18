@@ -1,0 +1,153 @@
+{
+  "uid" : "1d08cab0d4a2212c",
+  "name" : "should see message when login invalid password",
+  "fullName" : "Login Function.should see message when login invalid password",
+  "historyId" : "4a08479d066b57d7a1b29b113015d1a4",
+  "time" : {
+    "start" : 1647594187236,
+    "stop" : 1647594191877,
+    "duration" : 4641
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input email as asd@asd.com and password as 123",
+      "time" : {
+        "start" : 1647594187361,
+        "stop" : 1647594187361,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on Login button",
+      "time" : {
+        "start" : 1647594189897,
+        "stop" : 1647594189897,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_003"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Function"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Function"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see message when login invalid password"
+  }, {
+    "name" : "package",
+    "value" : "Login Function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ {
+    "name" : "https://my-tms/TC_003",
+    "url" : "https://my-tms/TC_003",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ca7310ff0a4d49cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647590599001,
+        "stop" : 1647590603993,
+        "duration" : 4992
+      }
+    }, {
+      "uid" : "dd6511b3385ed567",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588896458,
+        "stop" : 1647588901045,
+        "duration" : 4587
+      }
+    }, {
+      "uid" : "3a2681969c54beaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647587068833,
+        "stop" : 1647587073720,
+        "duration" : 4887
+      }
+    }, {
+      "uid" : "d71a8184cd341429",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647586696469,
+        "stop" : 1647586701380,
+        "duration" : 4911
+      }
+    }, {
+      "uid" : "2583b75f6ebd63f9",
+      "status" : "broken",
+      "statusDetails" : "element (\"//*[@text=\"Please enter a valid email address........\"]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1647586450333,
+        "stop" : 1647586460007,
+        "duration" : 9674
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d08cab0d4a2212c.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}

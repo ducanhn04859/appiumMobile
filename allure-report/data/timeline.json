@@ -2,558 +2,10 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "1-0",
-    "children" : [ {
-      "name" : "should see message when login invalid email",
-      "uid" : "cecf2cdfd6881c95",
-      "parentUid" : "5d884c24784638b93056bad95e3212e7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647588838652,
-        "stop" : 1647588845151,
-        "duration" : 6499
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5556-11" ]
-    }, {
-      "name" : "should login successfully",
-      "uid" : "20a2768e3c3d4acf",
-      "parentUid" : "5d884c24784638b93056bad95e3212e7",
-      "status" : "broken",
-      "time" : {
-        "start" : 1647588885166,
-        "stop" : 1647588891517,
-        "duration" : 6351
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
-      "parameters" : [ "emulator-5556-11" ]
-    }, {
-      "name" : "should see message when login invalid email",
-      "uid" : "1b6e397a2d56cd9b",
-      "parentUid" : "5d884c24784638b93056bad95e3212e7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647588891518,
-        "stop" : 1647588898059,
-        "duration" : 6541
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5556-11" ]
-    }, {
-      "name" : "should login successfully",
-      "uid" : "659b998535f358a9",
-      "parentUid" : "5d884c24784638b93056bad95e3212e7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647588830045,
-        "stop" : 1647588838652,
-        "duration" : 8607
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5556-11" ]
-    }, {
-      "name" : "should see message when login invalid password",
-      "uid" : "61143ffe65719fa",
-      "parentUid" : "5d884c24784638b93056bad95e3212e7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647588898062,
-        "stop" : 1647588904777,
-        "duration" : 6715
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5556-11" ]
-    }, {
-      "name" : "should see message when login invalid password",
-      "uid" : "44bd93bac3b0ee10",
-      "parentUid" : "5d884c24784638b93056bad95e3212e7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647588845151,
-        "stop" : 1647588850013,
-        "duration" : 4862
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5556-11" ]
-    }, {
-      "name" : "should see message when login invalid both email and password",
-      "uid" : "a1040b8290cab15a",
-      "parentUid" : "5d884c24784638b93056bad95e3212e7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647588850013,
-        "stop" : 1647588854902,
-        "duration" : 4889
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5556-11" ]
-    }, {
-      "name" : "should see message when login invalid both email and password",
-      "uid" : "6271e09e63aca668",
-      "parentUid" : "5d884c24784638b93056bad95e3212e7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647588904778,
-        "stop" : 1647588910669,
-        "duration" : 5891
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5556-11" ]
-    } ],
-    "uid" : "5d884c24784638b93056bad95e3212e7"
-  }, {
     "name" : "0-0",
     "children" : [ {
-      "name" : "should login successfully",
-      "uid" : "9dafd448a2db3e0a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647585907081,
-        "stop" : 1647585916327,
-        "duration" : 9246
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid email",
-      "uid" : "ed214df3b688c868",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647587063896,
-        "stop" : 1647587068833,
-        "duration" : 4937
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should login successfully",
-      "uid" : "397113c3796c9505",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647586440784,
-        "stop" : 1647586450332,
-        "duration" : 9548
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid password",
-      "uid" : "d806f78a54784ddc",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647586696469,
-        "stop" : 1647586701380,
-        "duration" : 4911
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
       "name" : "should see message when login invalid both email and password",
-      "uid" : "807eee3763b74c07",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647584622559,
-        "stop" : 1647584628207,
-        "duration" : 5648
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid both email and password",
-      "uid" : "50399d5c921cd632",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647588901046,
-        "stop" : 1647588907422,
-        "duration" : 6376
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 10,
-      "retriesStatusChange" : true,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should login successfully",
-      "uid" : "608ffd3666e18844",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647586011153,
-        "stop" : 1647586019739,
-        "duration" : 8586
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid both email and password",
-      "uid" : "2d75762e783fffa5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1647586019739,
-        "stop" : 1647586029767,
-        "duration" : 10028
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid password",
-      "uid" : "6182102b3c6054d7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647588896458,
-        "stop" : 1647588901045,
-        "duration" : 4587
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 3,
-      "retriesStatusChange" : true,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid both email and password",
-      "uid" : "d1ec1958f5f4bf92",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1647585621681,
-        "stop" : 1647585631362,
-        "duration" : 9681
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should login successfully",
-      "uid" : "3df61aadb1be46cf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647587054190,
-        "stop" : 1647587063896,
-        "duration" : 9706
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid password",
-      "uid" : "afd8a657fc4ff359",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1647586450333,
-        "stop" : 1647586460007,
-        "duration" : 9674
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid email",
-      "uid" : "645f75f81398e9bc",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647586690951,
-        "stop" : 1647586696469,
-        "duration" : 5518
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid both email and password",
-      "uid" : "a327b914361e6f4a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1647585916327,
-        "stop" : 1647585926128,
-        "duration" : 9801
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid both email and password",
-      "uid" : "981216f8686358b7",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647587073720,
-        "stop" : 1647587078727,
-        "duration" : 5007
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid both email and password",
-      "uid" : "40b400b4196aa473",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647584980520,
-        "stop" : 1647584985609,
-        "duration" : 5089
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid both email and password",
-      "uid" : "e7bb7a8f3eb68ed",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1647585845806,
-        "stop" : 1647585854938,
-        "duration" : 9132
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should login successfully",
-      "uid" : "5f003691ba017671",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647585836619,
-        "stop" : 1647585845805,
-        "duration" : 9186
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should login successfully",
-      "uid" : "c4b91cd7805fc942",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647584614040,
-        "stop" : 1647584622558,
-        "duration" : 8518
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should login successfully",
-      "uid" : "e36efe45280990bb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647588882828,
-        "stop" : 1647588891159,
-        "duration" : 8331
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 10,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid email",
-      "uid" : "d2a1e1825b43f07d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647588891161,
-        "stop" : 1647588896458,
-        "duration" : 5297
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 2,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should login successfully",
-      "uid" : "9d8d7239ad0ca4d1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647585614032,
-        "stop" : 1647585621679,
-        "duration" : 7647
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid both email and password",
-      "uid" : "50bf4fae77e9f397",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1647586460009,
-        "stop" : 1647586460286,
-        "duration" : 277
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid both email and password",
-      "uid" : "ec956a6ece72261b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1647586701383,
-        "stop" : 1647586701704,
-        "duration" : 321
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "emulator-5554-11" ]
-    }, {
-      "name" : "should see message when login invalid both email and password",
-      "uid" : "76faf30aaf4c9270",
+      "uid" : "5dcc4a949983c51c",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -570,13 +22,30 @@
       "parameters" : [ "emulator-5554-11" ]
     }, {
       "name" : "should login successfully",
-      "uid" : "71d3c570509666d3",
+      "uid" : "a4e4e4c6ed8633dc",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1647585040012,
-        "stop" : 1647585048091,
-        "duration" : 8079
+        "start" : 1647586682036,
+        "stop" : 1647586690950,
+        "duration" : 8914
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid email",
+      "uid" : "ad0263b98b694bbb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647590592914,
+        "stop" : 1647590599001,
+        "duration" : 6087
       },
       "flaky" : false,
       "newFailed" : false,
@@ -587,7 +56,7 @@
       "parameters" : [ "emulator-5554-11" ]
     }, {
       "name" : "should login successfully",
-      "uid" : "3593ca68317c7f9f",
+      "uid" : "6654b0527f996cb5",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -604,13 +73,64 @@
       "parameters" : [ "emulator-5554-11" ]
     }, {
       "name" : "should login successfully",
-      "uid" : "a71be95b866a2d29",
+      "uid" : "eda5db33a59520e9",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1647586682036,
-        "stop" : 1647586690950,
-        "duration" : 8914
+        "start" : 1647585614032,
+        "stop" : 1647585621679,
+        "duration" : 7647
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should login successfully",
+      "uid" : "d285a88474f8ba5c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647585836619,
+        "stop" : 1647585845805,
+        "duration" : 9186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "d59c847c08f9c40b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588901046,
+        "stop" : 1647588907422,
+        "duration" : 6376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "aaa30181db8855aa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647584980520,
+        "stop" : 1647584985609,
+        "duration" : 5089
       },
       "flaky" : false,
       "newFailed" : false,
@@ -621,7 +141,7 @@
       "parameters" : [ "emulator-5554-11" ]
     }, {
       "name" : "should see message when login invalid password",
-      "uid" : "5662c46af3c0470e",
+      "uid" : "3a2681969c54beaa",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -636,7 +156,623 @@
       "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should login successfully",
+      "uid" : "e07a51dd50450f06",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647585907081,
+        "stop" : 1647585916327,
+        "duration" : 9246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should login successfully",
+      "uid" : "79953144baa51d2e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647586011153,
+        "stop" : 1647586019739,
+        "duration" : 8586
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "83bd45d9e43ff10",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647585916327,
+        "stop" : 1647585926128,
+        "duration" : 9801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should login successfully",
+      "uid" : "e73e08af4420c957",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647585040012,
+        "stop" : 1647585048091,
+        "duration" : 8079
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "3dc9b8d781d29821",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647585845806,
+        "stop" : 1647585854938,
+        "duration" : 9132
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid password",
+      "uid" : "ca7310ff0a4d49cd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647590599001,
+        "stop" : 1647590603993,
+        "duration" : 4992
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should login successfully",
+      "uid" : "13b65b7e8c46fc5f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588882828,
+        "stop" : 1647588891159,
+        "duration" : 8331
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "804f997b25ea7bfb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647594191877,
+        "stop" : 1647594196838,
+        "duration" : 4961
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : true,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid password",
+      "uid" : "dd6511b3385ed567",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588896458,
+        "stop" : 1647588901045,
+        "duration" : 4587
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid password",
+      "uid" : "d71a8184cd341429",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647586696469,
+        "stop" : 1647586701380,
+        "duration" : 4911
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "730486ece2ff4820",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1647586460009,
+        "stop" : 1647586460286,
+        "duration" : 277
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should login successfully",
+      "uid" : "2ac4f59720e1a6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647584614040,
+        "stop" : 1647584622558,
+        "duration" : 8518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid email",
+      "uid" : "26190afaae5f3dc6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647594181151,
+        "stop" : 1647594187236,
+        "duration" : 6085
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should login successfully",
+      "uid" : "be5b59930c6a2db0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647590585156,
+        "stop" : 1647590592913,
+        "duration" : 7757
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid email",
+      "uid" : "ebd1c1006959b851",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588891161,
+        "stop" : 1647588896458,
+        "duration" : 5297
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "7b3d75b5a6115106",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647585621681,
+        "stop" : 1647585631362,
+        "duration" : 9681
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should login successfully",
+      "uid" : "566b4bd467dc6714",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647586440784,
+        "stop" : 1647586450332,
+        "duration" : 9548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "eec99cdcfcfce0ee",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647587073720,
+        "stop" : 1647587078727,
+        "duration" : 5007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should login successfully",
+      "uid" : "bf162b2d3ce4f3ad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647594173282,
+        "stop" : 1647594181150,
+        "duration" : 7868
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "42fa491954e9a18f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1647586701383,
+        "stop" : 1647586701704,
+        "duration" : 321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "dcf12b6f880a8ef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647590603993,
+        "stop" : 1647590608860,
+        "duration" : 4867
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should login successfully",
+      "uid" : "f189d3c1fb9aed7b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647587054190,
+        "stop" : 1647587063896,
+        "duration" : 9706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid email",
+      "uid" : "6c17a8379a56ed0d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647586690951,
+        "stop" : 1647586696469,
+        "duration" : 5518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid password",
+      "uid" : "1d08cab0d4a2212c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647594187236,
+        "stop" : 1647594191877,
+        "duration" : 4641
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : true,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "4d57b3789cfc92ab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647586019739,
+        "stop" : 1647586029767,
+        "duration" : 10028
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid email",
+      "uid" : "2ba4c8b2a7c42a74",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647587063896,
+        "stop" : 1647587068833,
+        "duration" : 4937
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid password",
+      "uid" : "2583b75f6ebd63f9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647586450333,
+        "stop" : 1647586460007,
+        "duration" : 9674
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "a628f4cfdfba6977",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647584622559,
+        "stop" : 1647584628207,
+        "duration" : 5648
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5554-11" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "1-0",
+    "children" : [ {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "76b06e0b78e9107c",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588850013,
+        "stop" : 1647588854902,
+        "duration" : 4889
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5556-11" ]
+    }, {
+      "name" : "should login successfully",
+      "uid" : "9dfd355004a0f887",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588830045,
+        "stop" : 1647588838652,
+        "duration" : 8607
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5556-11" ]
+    }, {
+      "name" : "should see message when login invalid email",
+      "uid" : "f756fa6aa27ff228",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588891518,
+        "stop" : 1647588898059,
+        "duration" : 6541
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5556-11" ]
+    }, {
+      "name" : "should see message when login invalid email",
+      "uid" : "3e14556922cde86c",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588838652,
+        "stop" : 1647588845151,
+        "duration" : 6499
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5556-11" ]
+    }, {
+      "name" : "should see message when login invalid password",
+      "uid" : "e5f3bb8bfda0b8c3",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588845151,
+        "stop" : 1647588850013,
+        "duration" : 4862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5556-11" ]
+    }, {
+      "name" : "should see message when login invalid both email and password",
+      "uid" : "724e78e85553ddc0",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588904778,
+        "stop" : 1647588910669,
+        "duration" : 5891
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5556-11" ]
+    }, {
+      "name" : "should login successfully",
+      "uid" : "b838cd2a344d1db7",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1647588885166,
+        "stop" : 1647588891517,
+        "duration" : 6351
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "emulator-5556-11" ]
+    }, {
+      "name" : "should see message when login invalid password",
+      "uid" : "83356b1935e534d2",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588898062,
+        "stop" : 1647588904777,
+        "duration" : 6715
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "emulator-5556-11" ]
+    } ],
+    "uid" : "5d884c24784638b93056bad95e3212e7"
   } ]
 }

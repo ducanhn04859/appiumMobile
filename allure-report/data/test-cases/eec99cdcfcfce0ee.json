@@ -1,0 +1,114 @@
+{
+  "uid" : "eec99cdcfcfce0ee",
+  "name" : "should see message when login invalid both email and password",
+  "fullName" : "Login Function.should see message when login invalid both email and password",
+  "historyId" : "316ce269b6603bae69634faea11c9531",
+  "time" : {
+    "start" : 1647587073720,
+    "stop" : 1647587078727,
+    "duration" : 5007
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input email as asd and password as 123",
+      "time" : {
+        "start" : 1647587073782,
+        "stop" : 1647587073782,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on Login button",
+      "time" : {
+        "start" : 1647587076826,
+        "stop" : 1647587076826,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "issue",
+    "value" : "https://mybug-tracker/ISSUE_001"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_004"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Function"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Function"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see message when login invalid both email and password"
+  }, {
+    "name" : "package",
+    "value" : "Login Function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ {
+    "name" : "https://mybug-tracker/ISSUE_001",
+    "url" : "https://mybug-tracker/ISSUE_001",
+    "type" : "issue"
+  }, {
+    "name" : "https://my-tms/TC_004",
+    "url" : "https://my-tms/TC_004",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eec99cdcfcfce0ee.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}

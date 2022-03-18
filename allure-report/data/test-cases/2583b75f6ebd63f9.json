@@ -1,0 +1,90 @@
+{
+  "uid" : "2583b75f6ebd63f9",
+  "name" : "should see message when login invalid password",
+  "fullName" : "Login Function.should see message when login invalid password",
+  "historyId" : "4a08479d066b57d7a1b29b113015d1a4",
+  "time" : {
+    "start" : 1647586450333,
+    "stop" : 1647586460007,
+    "duration" : 9674
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//*[@text=\"Please enter a valid email address........\"]\") still not displayed after 5000ms",
+  "statusTrace" : "Error: element (\"//*[@text=\"Please enter a valid email address........\"]\") still not displayed after 5000ms\n                    at Element.<anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/node_modules/@wdio/utils/build/shim.js:276:24)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Login.is_invalid_email_msg_display (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/page_object/Login_page/Login.js:22:30)\n                    at LoginFlow.verifyLoginUnsuccessfully (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_flow/login/LoginFlow.js:41:30)\n                    at Context.<anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_script/LoginPage/TC_001_Login.js:34:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"//*[@text=\"Please enter a valid email address........\"]\") still not displayed after 5000ms",
+    "statusTrace" : "Error: element (\"//*[@text=\"Please enter a valid email address........\"]\") still not displayed after 5000ms\n                    at Element.<anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/node_modules/@wdio/utils/build/shim.js:276:24)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Login.is_invalid_email_msg_display (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/page_object/Login_page/Login.js:22:30)\n                    at LoginFlow.verifyLoginUnsuccessfully (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_flow/login/LoginFlow.js:41:30)\n                    at Context.<anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_script/LoginPage/TC_001_Login.js:34:14)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "54bb6ec4fa72a941",
+      "name" : "Screenshot",
+      "source" : "54bb6ec4fa72a941.png",
+      "type" : "image/png",
+      "size" : 128166
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_002"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Function"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Function"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see message when login invalid password"
+  }, {
+    "name" : "package",
+    "value" : "Login Function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ {
+    "name" : "https://my-tms/TC_002",
+    "url" : "https://my-tms/TC_002",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2583b75f6ebd63f9.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}
