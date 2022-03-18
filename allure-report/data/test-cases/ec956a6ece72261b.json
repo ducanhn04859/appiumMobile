@@ -1,0 +1,94 @@
+{
+  "uid" : "ec956a6ece72261b",
+  "name" : "should see message when login invalid both email and password",
+  "fullName" : "Login Function.should see message when login invalid both email and password",
+  "historyId" : "316ce269b6603bae69634faea11c9531",
+  "time" : {
+    "start" : 1647586701383,
+    "stop" : 1647586701704,
+    "duration" : 321
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+  "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true\n                    at Context.<anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_script/LoginPage/TC_001_Login.js:41:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+    "statusTrace" : "Error: expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true\n                    at Context.<anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_script/LoginPage/TC_001_Login.js:41:22)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "883a7c07865f8111",
+      "name" : "Screenshot",
+      "source" : "883a7c07865f8111.png",
+      "type" : "image/png",
+      "size" : 128166
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "issue",
+    "value" : "https://mybug-tracker/ISSUE_001"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_004"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Function"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Function"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see message when login invalid both email and password"
+  }, {
+    "name" : "package",
+    "value" : "Login Function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ {
+    "name" : "https://mybug-tracker/ISSUE_001",
+    "url" : "https://mybug-tracker/ISSUE_001",
+    "type" : "issue"
+  }, {
+    "name" : "https://my-tms/TC_004",
+    "url" : "https://my-tms/TC_004",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec956a6ece72261b.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}

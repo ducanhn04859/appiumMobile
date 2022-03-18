@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647586682036' stop='1647586701705'>
+    <name>Login Function</name>
+    <title>Login Function</title>
+    <test-cases>
+        <test-case start='1647586682036' status='passed' stop='1647586690950'>
+            <name>should login successfully</name>
+            <title>should login successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_001'/>
+                <label name='severity' value='critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1647586690951' status='passed' stop='1647586696469'>
+            <name>should see message when login invalid email</name>
+            <title>should see message when login invalid email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_002'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1647586696469' status='passed' stop='1647586701380'>
+            <name>should see message when login invalid password</name>
+            <title>should see message when login invalid password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_003'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1647586701383' status='failed' stop='1647586701704'>
+            <name>should see message when login invalid both email and password</name>
+            <title>should see message when login invalid both email and password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_004'/>
+                <label name='issue' value='https://mybug-tracker/ISSUE_001'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a3933964-d2ad-4b9a-ac6a-ce606f99b686-attachment.png' type='image/png' size='128166'/>
+            </attachments>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true
+                    at Context.&lt;anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_script/LoginPage/TC_001_Login.js:41:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

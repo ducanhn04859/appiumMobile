@@ -1,0 +1,81 @@
+[ {
+  "uid" : "1b6e397a2d56cd9b",
+  "name" : "should see message when login invalid email",
+  "time" : {
+    "start" : 1647588891518,
+    "stop" : 1647588898059,
+    "duration" : 6541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61143ffe65719fa",
+  "name" : "should see message when login invalid password",
+  "time" : {
+    "start" : 1647588898062,
+    "stop" : 1647588904777,
+    "duration" : 6715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20a2768e3c3d4acf",
+  "name" : "should login successfully",
+  "time" : {
+    "start" : 1647588885166,
+    "stop" : 1647588891517,
+    "duration" : 6351
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "e36efe45280990bb",
+  "name" : "should login successfully",
+  "time" : {
+    "start" : 1647588882828,
+    "stop" : 1647588891159,
+    "duration" : 8331
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "50399d5c921cd632",
+  "name" : "should see message when login invalid both email and password",
+  "time" : {
+    "start" : 1647588901046,
+    "stop" : 1647588907422,
+    "duration" : 6376
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2a1e1825b43f07d",
+  "name" : "should see message when login invalid email",
+  "time" : {
+    "start" : 1647588891161,
+    "stop" : 1647588896458,
+    "duration" : 5297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6271e09e63aca668",
+  "name" : "should see message when login invalid both email and password",
+  "time" : {
+    "start" : 1647588904778,
+    "stop" : 1647588910669,
+    "duration" : 5891
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6182102b3c6054d7",
+  "name" : "should see message when login invalid password",
+  "time" : {
+    "start" : 1647588896458,
+    "stop" : 1647588901045,
+    "duration" : 4587
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

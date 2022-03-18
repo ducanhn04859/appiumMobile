@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647586440783' stop='1647586460287'>
+    <name>Login Function</name>
+    <title>Login Function</title>
+    <test-cases>
+        <test-case start='1647586440784' status='passed' stop='1647586450332'>
+            <name>should login successfully</name>
+            <title>should login successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_001'/>
+                <label name='severity' value='critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1647586450333' status='broken' stop='1647586460007'>
+            <name>should see message when login invalid password</name>
+            <title>should see message when login invalid password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_002'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3c09c979-74fb-40e6-9245-dc4acb6dc512-attachment.png' type='image/png' size='128166'/>
+            </attachments>
+            <failure>
+                <message>element ("//*[@text="Please enter a valid email address........"]") still not displayed after 5000ms</message>
+                <stack-trace>Error: element ("//*[@text="Please enter a valid email address........"]") still not displayed after 5000ms
+                    at Element.&lt;anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/node_modules/@wdio/utils/build/shim.js:276:24)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Login.is_invalid_email_msg_display (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/page_object/Login_page/Login.js:22:30)
+                    at LoginFlow.verifyLoginUnsuccessfully (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_flow/login/LoginFlow.js:41:30)
+                    at Context.&lt;anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_script/LoginPage/TC_001_Login.js:34:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1647586460009' status='failed' stop='1647586460286'>
+            <name>should see message when login invalid both email and password</name>
+            <title>should see message when login invalid both email and password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_003'/>
+                <label name='issue' value='https://mybug-tracker/ISSUE_003'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='975bfede-949a-4e1c-a2be-a3c29d63b65e-attachment.png' type='image/png' size='128166'/>
+            </attachments>
+            <failure>
+                <message>expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: false
+                Received: true
+                    at Context.&lt;anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_script/LoginPage/TC_001_Login.js:39:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

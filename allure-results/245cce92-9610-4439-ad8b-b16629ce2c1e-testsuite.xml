@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1647588882827' stop='1647588907425'>
+    <name>Login Function</name>
+    <title>Login Function</title>
+    <test-cases>
+        <test-case start='1647588882828' status='passed' stop='1647588891159'>
+            <name>should login successfully</name>
+            <title>should login successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_001'/>
+                <label name='severity' value='critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1647588884561' status='passed' stop='1647588884561'>
+                    <name>Input email as asd@asd.com and password as 12345678</name>
+                    <title>Input email as asd@asd.com and password as 12345678</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647588887418' status='passed' stop='1647588887418'>
+                    <name>Click on Login button</name>
+                    <title>Click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1647588891161' status='passed' stop='1647588896458'>
+            <name>should see message when login invalid email</name>
+            <title>should see message when login invalid email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_002'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1647588891226' status='passed' stop='1647588891226'>
+                    <name>Input email as asd and password as </name>
+                    <title>Input email as asd and password as </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647588894345' status='passed' stop='1647588894345'>
+                    <name>Click on Login button</name>
+                    <title>Click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1647588896458' status='passed' stop='1647588901045'>
+            <name>should see message when login invalid password</name>
+            <title>should see message when login invalid password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_003'/>
+                <label name='severity' value='normal'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1647588896499' status='passed' stop='1647588896499'>
+                    <name>Input email as asd@asd.com and password as 123</name>
+                    <title>Input email as asd@asd.com and password as 123</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647588898865' status='passed' stop='1647588898865'>
+                    <name>Click on Login button</name>
+                    <title>Click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1647588901046' status='passed' stop='1647588907422'>
+            <name>should see message when login invalid both email and password</name>
+            <title>should see message when login invalid both email and password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='https://my-tms/TC_004'/>
+                <label name='issue' value='https://mybug-tracker/ISSUE_001'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1647588901082' status='passed' stop='1647588901082'>
+                    <name>Input email as asd and password as 123</name>
+                    <title>Input email as asd and password as 123</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1647588904677' status='passed' stop='1647588904677'>
+                    <name>Click on Login button</name>
+                    <title>Click on Login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

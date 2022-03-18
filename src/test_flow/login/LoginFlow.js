@@ -1,6 +1,7 @@
 import login from "../../page_object/Login_page/Login";
 import NavBar from "../../page_object/common/NavBar";
 import LoginMessage from "../../page_object/Login_page/LoginMessage";
+import allureReporter from '@wdio/allure-reporter'
 
 const validateEmail = (email) => {
     return email.match(
@@ -17,8 +18,10 @@ class LoginFlow {
 
     loginWithCredential() {
         if (!login.is_on_login_screen()) NavBar.login_icon.click()
+        allureReporter.addStep(`Input email as ${this.email} and password as ${this.password}`)
         login.email_txt_field.setValue(this.email)
         login.password_txt_field.setValue(this.password)
+        allureReporter.addStep(`Click on Login button`)
         login.click_on_login_btn()
         return this
     }

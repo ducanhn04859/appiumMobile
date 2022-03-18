@@ -1,0 +1,104 @@
+{
+  "uid" : "20a2768e3c3d4acf",
+  "name" : "should login successfully",
+  "fullName" : "Login Function.should login successfully",
+  "historyId" : "523ce64f73c95f190ba7cae65bd7c3b3",
+  "time" : {
+    "start" : 1647588885166,
+    "stop" : 1647588891517,
+    "duration" : 6351
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"~Login\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                    at Element.<anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/node_modules/@wdio/utils/build/shim.js:276:24)\n                    at LoginFlow.loginWithCredential (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_flow/login/LoginFlow.js:20:60)\n                    at Context.<anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_script/LoginPage/TC_001_Login.js:14:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call click on element with selector \"~Login\" because element wasn't found",
+    "statusTrace" : "Error: Can't call click on element with selector \"~Login\" because element wasn't found\n                    at Element.<anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/node_modules/@wdio/utils/build/shim.js:276:24)\n                    at LoginFlow.loginWithCredential (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_flow/login/LoginFlow.js:20:60)\n                    at Context.<anonymous> (/Users/nguyenducanh/Documents/Coding/CMC/mobile-automation-test/src/test_script/LoginPage/TC_001_Login.js:14:14)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f48ef85debd1f7cd",
+      "name" : "Screenshot",
+      "source" : "f48ef85debd1f7cd.png",
+      "type" : "image/png",
+      "size" : 159559
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_001"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Function"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Function"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login successfully"
+  }, {
+    "name" : "package",
+    "value" : "Login Function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5556-11"
+  } ],
+  "links" : [ {
+    "name" : "https://my-tms/TC_001",
+    "url" : "https://my-tms/TC_001",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "659b998535f358a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647588830045,
+        "stop" : 1647588838652,
+        "duration" : 8607
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "20a2768e3c3d4acf.json",
+  "parameterValues" : [ "emulator-5556-11" ]
+}

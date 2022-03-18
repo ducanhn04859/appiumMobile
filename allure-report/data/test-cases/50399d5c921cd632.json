@@ -1,0 +1,202 @@
+{
+  "uid" : "50399d5c921cd632",
+  "name" : "should see message when login invalid both email and password",
+  "fullName" : "Login Function.should see message when login invalid both email and password",
+  "historyId" : "316ce269b6603bae69634faea11c9531",
+  "time" : {
+    "start" : 1647588901046,
+    "stop" : 1647588907422,
+    "duration" : 6376
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 10,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Input email as asd and password as 123",
+      "time" : {
+        "start" : 1647588901082,
+        "stop" : 1647588901082,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on Login button",
+      "time" : {
+        "start" : 1647588904677,
+        "stop" : 1647588904677,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "issue",
+    "value" : "https://mybug-tracker/ISSUE_001"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "testId",
+    "value" : "https://my-tms/TC_004"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Function"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Function"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see message when login invalid both email and password"
+  }, {
+    "name" : "package",
+    "value" : "Login Function"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ {
+    "name" : "https://mybug-tracker/ISSUE_001",
+    "url" : "https://mybug-tracker/ISSUE_001",
+    "type" : "issue"
+  }, {
+    "name" : "https://my-tms/TC_004",
+    "url" : "https://my-tms/TC_004",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "981216f8686358b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647587073720,
+        "stop" : 1647587078727,
+        "duration" : 5007
+      }
+    }, {
+      "uid" : "ec956a6ece72261b",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "time" : {
+        "start" : 1647586701383,
+        "stop" : 1647586701704,
+        "duration" : 321
+      }
+    }, {
+      "uid" : "50bf4fae77e9f397",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n                \n                Expected: false\n                Received: true",
+      "time" : {
+        "start" : 1647586460009,
+        "stop" : 1647586460286,
+        "duration" : 277
+      }
+    }, {
+      "uid" : "2d75762e783fffa5",
+      "status" : "broken",
+      "statusDetails" : "element (\"//*[@text=\"Please enter a valid email address........\"]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1647586019739,
+        "stop" : 1647586029767,
+        "duration" : 10028
+      }
+    }, {
+      "uid" : "a327b914361e6f4a",
+      "status" : "broken",
+      "statusDetails" : "element (\"//*[@text=\"Please enter a valid email address........\"]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1647585916327,
+        "stop" : 1647585926128,
+        "duration" : 9801
+      }
+    }, {
+      "uid" : "e7bb7a8f3eb68ed",
+      "status" : "broken",
+      "statusDetails" : "element (\"//*[@text=\"Please enter a valid email address........\"]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1647585845806,
+        "stop" : 1647585854938,
+        "duration" : 9132
+      }
+    }, {
+      "uid" : "d1ec1958f5f4bf92",
+      "status" : "broken",
+      "statusDetails" : "element (\"//*[@text=\"Please enter a valid email address........\"]\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1647585621681,
+        "stop" : 1647585631362,
+        "duration" : 9681
+      }
+    }, {
+      "uid" : "76faf30aaf4c9270",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647585048092,
+        "stop" : 1647585053982,
+        "duration" : 5890
+      }
+    }, {
+      "uid" : "40b400b4196aa473",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647584980520,
+        "stop" : 1647584985609,
+        "duration" : 5089
+      }
+    }, {
+      "uid" : "807eee3763b74c07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647584622559,
+        "stop" : 1647584628207,
+        "duration" : 5648
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50399d5c921cd632.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}
