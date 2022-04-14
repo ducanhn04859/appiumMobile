@@ -17,10 +17,10 @@ exports.config = {
     specs: [
         // 'PlayWithMocha.js'
         // 'api/click.js'
-        // 'api/swiprVertical.js'
+        'api/swiprVertical.js'
         // 'api/swiprHorizontal.js'
         // 'src_backup/test_script/LoginPage/TC_005_Login.js',
-        "src/test_script/LoginPage/TC_001_Login.js"
+        // "src/test_script/LoginPage/TC_001_Login.js"
     ],
     capabilities: [{
         "platformName": "Android",

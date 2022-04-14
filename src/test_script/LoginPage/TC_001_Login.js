@@ -7,7 +7,7 @@ describe('Login Function', function () {
     it('should login successfully', function () {
         allureReporter.addTestId("TC_001")
         allureReporter.addSeverity("critical")
-        
+
         const {email, pass} = VALID_CREDS
         const loginFlow = new LoginFlow(email, pass)
         loginFlow
@@ -29,11 +29,12 @@ describe('Login Function', function () {
         allureReporter.addSeverity("normal")
 
         const {email, pass} = INVALID_CREDS
-        const loginFlow = new LoginFlow("asd@asd.com", pass)
+        const loginFlow = new LoginFlow("asdfgdfg@asdfgdd.com", pass)
         loginFlow
             .loginWithCredential()
             .verifyLoginUnsuccessfully()
     });
+    
     it('should see message when login invalid both email and password', function () {
         allureReporter.addTestId("TC_004")
         allureReporter.addIssue("ISSUE_001")

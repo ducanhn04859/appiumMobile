@@ -9,23 +9,19 @@ const validateEmail = (email) => {
     );
 };
 
-class LoginFlow_1 {
+class LoginFlow {
 
-    constructor(email, password) {
-        this.email = email
-        this.password = password
-    }
 
     openLoginPage() {
         if (!login.is_on_login_screen()) NavBar.login_icon.click()
         return this
     }
 
-    loginWithCredential() {
+    loginWithCredential(email, password) {
         if (!login.is_on_login_screen()) NavBar.login_icon.click()
-        allureReporter.addStep(`Input email as ${this.email} and password as ${this.password}`)
-        login.email_txt_field.setValue(this.email)
-        login.password_txt_field.setValue(this.password)
+        allureReporter.addStep(`Input email as ${email} and password as ${password}`)
+        login.email_txt_field.setValue(email)
+        login.password_txt_field.setValue(password)
         allureReporter.addStep(`Click on Login button`)
         login.click_on_login_btn()
         return this
@@ -56,4 +52,4 @@ class LoginFlow_1 {
     }
 }
 
-export default LoginFlow_1
+export default LoginFlow

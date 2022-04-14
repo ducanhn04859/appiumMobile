@@ -1,3 +1,5 @@
+//run
+//npm test test_config/grouping-testscript.js -- --suite regressionTest
 const {config} = require("./main")
 
 config.capabilities = [{
@@ -11,7 +13,7 @@ config.capabilities = [{
 
 config.suites = {
     smokeTest: ["src/test_script/LoginPage/TC_002_Login.js"],
-    regressionTest: ["src/test_script/LoginPage/TC_001_Login.js"]
+    regressionTest: [["src/test_script/LoginPage/TC_002_Login.js"]]
 }
 
 exports.config = config

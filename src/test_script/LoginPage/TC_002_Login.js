@@ -2,7 +2,6 @@ import {VALID_CREDS, INVALID_CREDS} from "../../test_data/TC_001_Login";
 import LoginFlow from "../../test_flow/login/LoginFlow";
 import allureReporter from '@wdio/allure-reporter'
 
-
 describe(`Smoke test for ${browser.capabilities.deviceName}`, function () {
     it('SM 001', function () {
         allureReporter.addTestId("TC_001")
@@ -28,8 +27,7 @@ describe(`Smoke test for ${browser.capabilities.deviceName}`, function () {
         allureReporter.addTestId("TC_003")
         allureReporter.addSeverity("normal")
 
-        const {email, pass} = INVALID_CREDS
-        const loginFlow = new LoginFlow("asd@asd.com", pass)
+        const loginFlow = new LoginFlow("assdad@asdasda.com", 123)
         loginFlow
             .loginWithCredential()
             .verifyLoginUnsuccessfully()

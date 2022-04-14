@@ -30,7 +30,8 @@ exports.config = {
         // 'api/swiprVertical.js'
         // 'api/swiprHorizontal.js'
         // 'src_backup/test_script/LoginPage/TC_005_Login.js',
-        "src/test_script/LoginPage/TC_001_Login.js"
+        // "src/test_script/LoginPage/TC_001_Login.js",
+        "src/test_script/BDD/Login/login.feature"
     ],
     before: function () {
         global.chaiExpect = chai.expect
